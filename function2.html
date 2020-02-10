@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <script>
+
+function checkAge(age) {
+  
+    return age > 18 && confirm('заходи не бойся, выходи не плачь)') || confirm('Родители разрешили?');
+    
+    
+    //return age > 18 ? confirm('заходи не бойся, выходи не плачь)') : confirm('Родители разрешили?');
+  
+  
+    /*if (age > 18) {
+    return confirm('заходи не бойся, выходи не плачь)');
+  } else {
+    return confirm('Родители разрешили?');
+  }*/
+}
+
+let age1 = prompt ("введите возраст", 0);
+checkAge(age1);
+</script>
+
+</body>
+
+</html>

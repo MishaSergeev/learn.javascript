@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Перед скриптом...</p>
+
+ 
+   <script>
+   let user = {
+  name: "Василий Иванович",
+  age: 35
+};
+
+
+alert(JSON.stringify(user));
+let user1 =JSON.stringify(user);
+let user2 = JSON.parse(user1);
+alert(user2.name); 
+
+//let user2 = JSON.parse(JSON.stringify(user));
+// решение на мой взгляд не отображает результат.
+
+
+  </script> 
+
+  <p>...После скрипта.</p>
+
+</body>
+
+</html>

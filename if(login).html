@@ -1,0 +1,18 @@
+<html>
+
+<body>
+    <script>
+        let user = prompt('Whos ther?', '');
+        if (user == 'admin') {
+            let parol = prompt('введите пароль', '');
+            if (parol == 'TTT') alert("Hello");
+            else if (parol == '' || parol == null) alert("Exit");
+            else alert("Wrong pasword");
+        }
+        else if (user == '' || user == null) alert("Exit");
+        else alert("I don't know you");
+    </script>
+
+</body>
+
+</html>
